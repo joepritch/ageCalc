@@ -2,7 +2,7 @@
   "name": "wpTemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build && webpack-dev-server --open --mode development",
@@ -37,11 +37,10 @@
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack": "4.19.1",
     "webpack-cli": "^2.0.9",
-    "webpack-dev-server": "^3.1.0"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^3.1.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7"
-  }
+  },
+  "dependencies": {}
 }
