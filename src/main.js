@@ -3,10 +3,12 @@ import 'bootstrap/scss/bootstrap.scss';
 import 'jquery';
 import 'jquery/src/jquery.js';
 import './sass/styles.scss';
+import {convert} from "./logic.js";
 
 
 $(document).ready(function(){
   $("#calculate").click(function(){
-    console.log("hello");
+    const birthday = $("#inputField").val();
+    convert(birthday);
   });
 });
